@@ -6,6 +6,9 @@ const app = express();
 
 app.use(cors());
 app.use('/', router);
+// app.get("/:universalURL", (req, res) => { 
+//     res.send("404 URL NOT FOUND"); 
+// });
 
 const PORT = 8000;
 

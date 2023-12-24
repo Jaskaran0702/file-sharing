@@ -6,7 +6,7 @@ function App() {
   const [file,setFile] = useState('');
   const [result,setResult] = useState('');
   const fileInputRef = useRef();
-  const logo = "https://i.pinimg.com/originals/16/46/24/1646243661201a0892cc4b1a64fcbacf.jpg";
+  // const logo = "https://i.pinimg.com/originals/16/46/24/1646243661201a0892cc4b1a64fcbacf.jpg";
   useEffect(()=>{
     const getImage = async () => {
       if(file){
@@ -45,3 +45,6 @@ function App() {
 }
 
 export default App;
+
+
+//live link :- https://file-sharing-frontend-kh0h.onrender.com/
