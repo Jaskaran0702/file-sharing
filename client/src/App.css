@@ -119,10 +119,10 @@ body {
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 3em;
   margin-bottom: 30px;
   text-align: center;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: bold;
   background: linear-gradient(to right, #3498db, #5dade2); /* Blue gradient colors */
   -webkit-background-clip: text;
@@ -130,7 +130,10 @@ h1 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-
+.flow{
+  /* background: linear-gradient(to right, #1753b4, #245eba); */
+  color: #0056b3;
+}
 p {
   color: #555555; /* Adjusted color for better contrast */
   font-size: 1.5em; /* Increased font size for better readability */

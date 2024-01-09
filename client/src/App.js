@@ -28,7 +28,7 @@ function App() {
     <div className='container'>
       {/* <img src={logo} alt="banner" /> */}
       <div className='wrapper'>
-        <h1>File Sharing Application</h1>
+        <h1>File<span className='flow'>Flow</span></h1>
         <p>Upload and Share the download link.</p>
 
         <button onClick={() => onUploadClick()}>Upload</button>
